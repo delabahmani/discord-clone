@@ -9,7 +9,7 @@ const NavbarItem = ({ href, title }: Props) => {
   return (
     <a
       href={href}
-      className="font-serif arial font-semibold text-white text-[16px] mx-[10px] p-[10px] hover:underline"
+      className="arial mx-[10px] lg:p-[10px] font-serif text-[16px] font-semibold text-white hover:underline"
     >
       {title}
     </a>
