@@ -18,12 +18,14 @@
 }
 
 .hero-section {
-  background-image: url(https://assets-global.website-files.com/6257ade…/644fab4…_8a8375a….svg),
-    url(https://assets-global.website-files.com/6257ade…/644fab4…_c40c84c….svg),
-    url(https://assets-global.website-files.com/6257ade…/644fab4…_e6d5771….svg);
-  background-position: -57% 100%, 155% 100%, 50% 100%;
+  background-image: url(/assets/hero-left.svg), url(/assets/hero-right.svg),
+    url(/assets/clouds.svg);
+  background-position:
+    -5% 100%,
+    100% 100%,
+    center 100%;
   background-repeat: no-repeat, no-repeat, no-repeat;
-  background-size: 51%, 52%, auto;
+  background-size: 35%, auto, cover;
   min-height: auto;
   padding-top: 0;
 }
