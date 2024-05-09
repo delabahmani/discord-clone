@@ -18,14 +18,22 @@
 }
 
 .hero-section {
-  background-image: url(/assets/hero-left.svg), url(/assets/hero-right.svg),
-    url(/assets/clouds.svg);
+  background-image: url(/assets/clouds.svg);
   background-position:
-    -5% 100%,
-    100% 100%,
     center 100%;
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-size: 35%, auto, cover;
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: auto;
   padding-top: 0;
 }
+
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-gray {
+  background-color: lightgray;
+}
+
+

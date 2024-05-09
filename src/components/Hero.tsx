@@ -1,11 +1,12 @@
+import Image from "next/image";
 import React from "react";
 import { TbDownload } from "react-icons/tb";
 
 const Hero = () => {
   return (
-    <div className="hero-section z-0 min-w-full bg-[#404EED] xl:h-[650px]">
+    <div className="hero-section relative z-0 min-w-full bg-[#404EED] xl:h-[650px]">
       <div className="z-1 mx-auto justify-center text-center xl:pt-14">
-        <h1 className="paytone text-white 2xl:pt-24 2xl:text-7xl">
+        <h1 className="paytone relative top-10 text-white 2xl:pt-24 2xl:text-7xl">
           IMAGINE A PLACE...
         </h1>
 
@@ -29,10 +30,31 @@ const Hero = () => {
           <button className="rounded-full border-2 border-black  bg-[#23272A] px-[1rem] font-medium text-white transition-all duration-300 ease-in-out hover:text-[#7289da] hover:shadow-xl xl:h-[55px] xl:w-[310px] xl:text-lg">
             Open Discord in your browser
           </button>
+          <div className="absolute bottom-0 h-1/2 w-full flex justify-between ">
+            <Image
+              src="/assets/hero-left.svg"
+              alt=""
+              width={1000}
+              height={1000}
+              priority
+              className="w-[650px] relative right-[70px] border-2"
+            />
+            <Image
+              src="/assets/hero-right.svg"
+              alt=""
+              width={1000}
+              height={1000}
+              priority
+              className="w-[650px] relative left-[70px] border-2"
+            />
+          </div>
         </div>
       </div>
     </div>
   );
 };
+
+//   background-image: url(/assets/hero-left.svg), url(/assets/hero-right.svg),
+// url(/assets/clouds.svg);
 
 export default Hero;
