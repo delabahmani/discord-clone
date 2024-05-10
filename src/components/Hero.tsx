@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="hero-section relative z-0 min-w-full bg-[#404EED] xl:h-[650px]">
       <div className="z-1 mx-auto justify-center text-center xl:pt-14">
-        <h1 className="paytone relative top-10 text-white 2xl:pt-24 2xl:text-7xl">
+        <h1 className="nordblack relative top-10 text-white 2xl:pt-24 2xl:text-[56px]">
           IMAGINE A PLACE...
         </h1>
 
@@ -22,12 +22,12 @@ const Hero = () => {
         <div className="flex justify-center gap-5">
           <button
             className=" flex items-center justify-center rounded-full border-2 border-white bg-white px-[1rem] font-medium transition-all duration-300 ease-in-out hover:text-[#404EED] hover:shadow-xl
-          xl:h-[55px] xl:w-[300px] xl:text-lg"
+          xl:h-[55px] xl:w-[300px] xl:text-lg z-10"
           >
             <TbDownload className="mr-[10px] xl:h-[24px] xl:w-[24px]" />
             Download for Windows
           </button>
-          <button className="rounded-full border-2 border-black  bg-[#23272A] px-[1rem] font-medium text-white transition-all duration-300 ease-in-out hover:text-[#7289da] hover:shadow-xl xl:h-[55px] xl:w-[310px] xl:text-lg">
+          <button className="rounded-full border-2 border-black  bg-[#23272A] px-[1rem] font-medium text-white transition-all duration-300 ease-in-out hover:text-[#7289da] hover:shadow-xl xl:h-[55px] xl:w-[310px] xl:text-lg z-10">
             Open Discord in your browser
           </button>
           <div className="absolute bottom-0 flex w-full justify-between ">

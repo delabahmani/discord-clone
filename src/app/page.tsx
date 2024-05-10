@@ -1,3 +1,4 @@
+import CTA from "@/components/CTA";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import InfoCard from "@/components/InfoCard";
@@ -14,13 +15,12 @@ export default function Home() {
           src="/assets/card-1.svg"
           bgColor="white"
           order="order-first"
-          
         />
         <InfoCard
           title="Where hanging out is easy"
           content="Grab a seat in a voice channel when you're free. Friends in your server can see you're around and instantly pop in to talk without having to call."
           src="/assets/card-2.svg"
-          bgColor="bg-gray-100"
+          bgColor="bg-[#F6F6F6]"
           order="order-last"
         />
         <InfoCard
@@ -30,6 +30,7 @@ export default function Home() {
           bgColor="white"
           order=""
         />
+        <CTA />
       </div>
     </main>
   );
