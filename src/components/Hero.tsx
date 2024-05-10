@@ -10,8 +10,8 @@ const Hero = () => {
           IMAGINE A PLACE...
         </h1>
 
-        <span className="flex justify-center p-10">
-          <p className="arial font-medium leading-8 text-white xl:mt-10 2xl:w-[800px] 2xl:text-[18px]">
+        <span className="flex justify-center p-9">
+          <p className="arial font-normal leading-8 text-white xl:mt-10 2xl:w-[785px] 2xl:text-[18px]">
             ...where you can belong to a school club, a gaming group, or a
             worldwide art community. Where just you and a handful of friends can
             spend time together. A place that makes it easy to talk every day
@@ -19,7 +19,7 @@ const Hero = () => {
           </p>
         </span>
 
-        <div className="flex justify-center gap-4">
+        <div className="flex justify-center gap-5">
           <button
             className=" flex items-center justify-center rounded-full border-2 border-white bg-white px-[1rem] font-medium transition-all duration-300 ease-in-out hover:text-[#404EED] hover:shadow-xl
           xl:h-[55px] xl:w-[300px] xl:text-lg"
@@ -30,14 +30,14 @@ const Hero = () => {
           <button className="rounded-full border-2 border-black  bg-[#23272A] px-[1rem] font-medium text-white transition-all duration-300 ease-in-out hover:text-[#7289da] hover:shadow-xl xl:h-[55px] xl:w-[310px] xl:text-lg">
             Open Discord in your browser
           </button>
-          <div className="absolute bottom-0 h-1/2 w-full flex justify-between ">
+          <div className="absolute bottom-0 flex w-full justify-between ">
             <Image
               src="/assets/hero-left.svg"
               alt=""
               width={1000}
               height={1000}
               priority
-              className="w-[650px] relative right-[70px] border-2"
+              className="relative right-[95px] xl:bottom-[-11.4px] xl:w-[700px]"
             />
             <Image
               src="/assets/hero-right.svg"
@@ -45,7 +45,7 @@ const Hero = () => {
               width={1000}
               height={1000}
               priority
-              className="w-[650px] relative left-[70px] border-2"
+              className="relative left-[95px] w-[650px]"
             />
           </div>
         </div>
