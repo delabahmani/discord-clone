@@ -10,7 +10,7 @@ const CTA = () => {
           RELIABLE TECH FOR STAYING CLOSE
         </h1>
         <p className=" arial mx-auto font-normal text-[#23272A] xl:w-[1000px] xl:pt-3 xl:text-[18px]">
-          Low-latency voice and video feels like you're in the same room. Wave
+          Low-latency voice and video feels like you&apos;re in the same room. Wave
           hello over video, watch friends stream their games, or gather up and
           have a drawing session with screen share.
         </p>
