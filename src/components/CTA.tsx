@@ -15,7 +15,7 @@ const CTA = () => {
           have a drawing session with screen share.
         </p>
       </div>
-      <div className="flex justify-center border-2 border-black">
+      <div className="flex justify-center ">
         <Image
           src="/assets/cta-img.svg"
           alt="example snippet of a discord group call"
@@ -24,7 +24,7 @@ const CTA = () => {
           className="xl:h-[700px] xl:w-[1180px]"
         />
       </div>
-      <div className="relative mx-auto flex flex-col items-center justify-center border-2 border-black xl:h-[350px] xl:w-[980px] gap-8">
+      <div className="relative mx-auto flex flex-col items-center justify-center xl:h-[350px] xl:w-[980px] gap-8">
         <Image
           src="/assets/cta-bg.svg"
           alt="4 multicolored sparkles"

@@ -1,4 +1,5 @@
 import CTA from "@/components/CTA";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import InfoCard from "@/components/InfoCard";
@@ -31,6 +32,7 @@ export default function Home() {
           order=""
         />
         <CTA />
+        <Footer />
       </div>
     </main>
   );
