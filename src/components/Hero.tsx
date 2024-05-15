@@ -30,7 +30,7 @@ const Hero = () => {
           <button className="rounded-full border-2 border-black  bg-[#23272A] px-[1rem] font-medium text-white transition-all duration-300 ease-in-out hover:text-[#7289da] hover:shadow-xl xl:h-[55px] xl:w-[310px] xl:text-lg z-10">
             Open Discord in your browser
           </button>
-          <div className="absolute bottom-0 flex w-full justify-between ">
+          <div className="absolute bottom-0 flex w-full justify-between overflow-hidden ">
             <Image
               src="/assets/hero-left.svg"
               alt=""
@@ -45,7 +45,7 @@ const Hero = () => {
               width={1000}
               height={1000}
               priority
-              className="relative left-[95px] w-[650px]"
+              className="relative left-[95px] w-[650px] overf"
             />
           </div>
         </div>
